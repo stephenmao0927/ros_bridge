@@ -1,0 +1,30 @@
+topics: 
+  - 
+    topic: /fl_cam/color/image_raw  # Topic name on both ROS 1 and ROS 2
+    type: sensor_msgs/msg/Image   # Type of topic to bridge
+    queue_size: 1  # Queue size
+  -
+    topic: /fr_cam/color/image_raw # Topic name on both ROS 1 and ROS 2
+    type: sensor_msgs/msg/Image   # Type of topic to bridge
+    queue_size: 1  # Queue size
+  -
+    topic: /segmentation
+    type: sensor_msgs/msg/Image
+    queue_size: 1  
+  -
+    topic: /topomap
+    type: visualization_msgs/msg/Marker
+    queue_size: 1
+  - 
+    topic: /vprpc_results
+    type: vpr_server/msg/TimestampedString
+    queue_size: 1
+  -
+    topic: /robot_safety_control_mode  # Topic name on both ROS 1 and ROS 2
+    type: std_msgs/msg/String  # Type of topic to bridge
+    queue_size: 1  # Queue size
+  -
+    topic:  /tele_remote/cmd_vel  # Topic name on both ROS 1 and ROS 2
+    type: geometry_msgs/msg/Twist  # Type of topic to bridge
+    queue_size: 1  # Queue size
+

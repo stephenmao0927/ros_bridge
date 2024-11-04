@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/custom_msg_ros1_bridge/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/custom_msg_ros1_bridge/ros1_ws/install -G Unix Makefiles

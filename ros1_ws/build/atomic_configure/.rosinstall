@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/custom_msg_ros1_bridge/ros1_ws/devel/setup.sh

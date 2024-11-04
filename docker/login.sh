@@ -1,0 +1,1 @@
+sudo docker exec -it ros1_bridge bash

@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000039] (-) JobUnselected: {'identifier': 'my_ros2_pkg'}
+[0.000405] (-) EventReactorShutdown: {}

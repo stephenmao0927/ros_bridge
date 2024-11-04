@@ -1,0 +1,1 @@
+export CYCLONEDDS_URI=file:///home/custom_msg_ros1_bridge/docker/cyclonedds.xml

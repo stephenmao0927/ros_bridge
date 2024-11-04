@@ -1,0 +1,21 @@
+[0.456s] Invoking command in '/home/custom_msg_ros1_bridge/ros2_ws/src/my_ros2_pkg': PYTHONPATH=/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/prefix_override:/home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/build install --record /home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data
+[0.607s] running egg_info
+[0.607s] writing ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/PKG-INFO
+[0.607s] writing dependency_links to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/dependency_links.txt
+[0.607s] writing entry points to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/entry_points.txt
+[0.607s] writing requirements to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/requires.txt
+[0.607s] writing top-level names to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/top_level.txt
+[0.634s] reading manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.634s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.635s] running build_py
+[0.635s] running install
+[0.635s] running install_lib
+[0.636s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages/my_ros2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.637s] Copying ../../build/my_ros2_pkg/my_ros2_pkg.egg-info to /home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages/my_ros2_pkg-0.0.0-py3.8.egg-info
+[0.638s] running install_scripts
+[0.650s] Installing my_publisher script to /home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/my_ros2_pkg
+[0.650s] writing list of installed files to '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/install.log'
+[0.662s] Invoked command in '/home/custom_msg_ros1_bridge/ros2_ws/src/my_ros2_pkg' returned '0': PYTHONPATH=/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/prefix_override:/home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/build install --record /home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/install.log --install-scripts $base/lib/my_ros2_pkg --single-version-externally-managed install_data

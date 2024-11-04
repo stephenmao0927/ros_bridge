@@ -1,0 +1,32 @@
+[0.000000] (-) TimerEvent: {}
+[0.000050] (my_ros2_pkg) JobQueued: {'identifier': 'my_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000083] (my_ros2_pkg) JobStarted: {'identifier': 'my_ros2_pkg'}
+[0.099461] (-) TimerEvent: {}
+[0.199629] (-) TimerEvent: {}
+[0.299812] (-) TimerEvent: {}
+[0.399973] (-) TimerEvent: {}
+[0.442365] (my_ros2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_pkg', 'build', '--build-base', '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/build', 'install', '--record', '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/install.log', '--install-scripts', '$base/lib/my_ros2_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/custom_msg_ros1_bridge/ros2_ws/src/my_ros2_pkg', 'env': {'LANGUAGE': 'en_US.UTF-8', 'HOSTNAME': 'Conti3090', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib', 'HOME': '/root', 'OLDPWD': '/home/custom_msg_ros1_bridge/ros1_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': '10.0.0.212', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'ROS2_DISTRO': 'foxy', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://10.0.0.212:11311/', 'PWD': '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg', 'LC_ALL': 'en_US.UTF-8', 'ROS_MASTER_PORT': '11311', 'PYTHONPATH': '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/prefix_override:/home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic'}, 'shell': False}
+[0.500063] (-) TimerEvent: {}
+[0.595595] (my_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.595967] (my_ros2_pkg) StdoutLine: {'line': b'writing ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/PKG-INFO\n'}
+[0.596129] (my_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/dependency_links.txt\n'}
+[0.596226] (my_ros2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/entry_points.txt\n'}
+[0.596357] (my_ros2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/requires.txt\n'}
+[0.596427] (my_ros2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/top_level.txt\n'}
+[0.600114] (-) TimerEvent: {}
+[0.620930] (my_ros2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[0.621624] (my_ros2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[0.621700] (my_ros2_pkg) StdoutLine: {'line': b'running build\n'}
+[0.621791] (my_ros2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.621839] (my_ros2_pkg) StdoutLine: {'line': b'running install\n'}
+[0.622283] (my_ros2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.623214] (my_ros2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.623315] (my_ros2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.624313] (my_ros2_pkg) StdoutLine: {'line': b"removing '/home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages/my_ros2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.624517] (my_ros2_pkg) StdoutLine: {'line': b'Copying ../../build/my_ros2_pkg/my_ros2_pkg.egg-info to /home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/python3.8/site-packages/my_ros2_pkg-0.0.0-py3.8.egg-info\n'}
+[0.625057] (my_ros2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.636949] (my_ros2_pkg) StdoutLine: {'line': b'Installing my_publisher script to /home/custom_msg_ros1_bridge/ros2_ws/install/my_ros2_pkg/lib/my_ros2_pkg\n'}
+[0.637129] (my_ros2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/custom_msg_ros1_bridge/ros2_ws/build/my_ros2_pkg/install.log'\n"}
+[0.647772] (my_ros2_pkg) CommandEnded: {'returncode': 0}
+[0.655337] (my_ros2_pkg) JobEnded: {'identifier': 'my_ros2_pkg', 'rc': 0}
+[0.655770] (-) EventReactorShutdown: {}

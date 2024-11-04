@@ -1,0 +1,30 @@
+# version: "3.8"
+services:
+  ros1_bridge:
+    image: stephenmao0927/ros1_bridge:v1
+    container_name: ros1_bridge
+    entrypoint: "/ros_entrypoint.sh /bin/bash"
+    volumes: 
+    - type: bind
+      source: ../bridge_ws
+      target: /home/custom_msg_ros1_bridge/bridge_ws
+    - type: bind
+      source: ../docker
+      target: /home/custom_msg_ros1_bridge/docker
+    - type: bind
+      source: ../ros1_ws
+      target: /home/custom_msg_ros1_bridge/ros1_ws
+    - type: bind
+      source: ../ros2_ws
+      target: /home/custom_msg_ros1_bridge/ros2_ws
+    - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    - /dev:/dev
+    - $HOME/.ssh:$HOME/.ssh
+    # environment:
+    #   - ROS_MASTER_URI=http://10.0.0.212:11311/
+    #   - ROS_MASTER_PORT=11311
+    #   - ROS_IP=10.0.0.212
+    #command: 
+    network_mode: host
+
+

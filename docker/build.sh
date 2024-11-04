@@ -1,0 +1,1 @@
+sudo docker build --network host -t ros1_bridge -f Dockerfile ${PWD}/..
